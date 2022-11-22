@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+
+html { scroll-behavior: smooth;}
+
+* {
+
+   
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+
+    font-size: 100%;
+    background: linear-gradient(#0004f0ca , #2b084bf0) bottom;
+    color: antiquewhite;
+}
+
+.top{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+    
+}
+
+.top{
+    
+
+    display: flex;
+    word-spacing: 87px;
+    
+} 
+
+.menu-item-top{
+    color: antiquewhite;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    
+}
+
+.conteudo-primario{
+
+    border-top: 0.2px solid rgba(245, 245, 245, 0.453);
+    margin-bottom: 40px;
+}
+
+.conteudo-principal{
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-escrito{
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titulo{
+
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.sub-titulo{
+
+    font-family: 'Secular One', sans-serif;
+    font-weight: 170;
+    font-size: 16px;
+}   
+
+.botao-contato{
+
+    background-color: antiquewhite;
+    width: 150px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(34, 33, 33, 0.718);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    cursor: grabbing;
+}
+
+.imagem-rosto{
+
+    height: 380px;
+}
+
+.conteudo-secundario {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.sobre{
+
+    border-top: 0.4px solid rgba(255, 248, 220, 0.477) ;
+    padding-top: 39px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.sobre-paragrafo {
+    font-family: 'Secular One', sans-serif;
+    font-weight: 350;
+    font-size: 16;
+    text-align: center;
+
+}
+
+.experiencia{
+    
+    border-top: 0.4px solid rgba(255, 248, 220, 0.477) ;
+    padding-top: 39px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+
+}
+
+.experiencia-paragrafo{
+
+    font-family: 'Secular One', sans-serif;
+    font-weight: 350;
+    font-size: 16;
+    text-align: center;
+}
